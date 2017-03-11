@@ -1,0 +1,18 @@
+{
+    "name": "OrbitPodium/easypay",
+    "description": "Laravel package for easypay.pt",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Oliveira",
+            "email": "info@creativeweb.pt"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "OrbitPodium\\easypay\\": "src/"
+        }
+    },
+    "require": {}
+}
