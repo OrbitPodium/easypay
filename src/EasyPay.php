@@ -100,6 +100,8 @@ class EasyPay {
         $this->_add_uri_param('o_obs', $this->o_obs);
         $this->_add_uri_param('o_mobile', $this->o_mobile);
         $this->_add_uri_param('o_email', $this->o_email);
+        $this->_add_uri_param('o_max_date', $this->o_max_date);
+        $this->_add_uri_param('ep_partner', config('easypay.user'));
  
         return $this->_xmlToArray( $this->_get_contents( $this->_get_uri( config('easypay.request_reference') ) ) );
     }
