@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateEasypayNotificationsTable extends Migration {
+class CreateEasypayNotifications extends Migration {
 
     /**
      * Run the migrations.
