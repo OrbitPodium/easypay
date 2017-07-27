@@ -12,7 +12,7 @@ Laravel Package to work with easypay API
 Add this to your composer.json file, in the require object:
 
 ```javascript
-"OrbitPodium/easypay": "1.0.*"
+"OrbitPodium/easypay": "dev-master"
 ```
 After that, run composer install to install the package.
 Add the service provider to `config/app.php`, within the `providers` array.
