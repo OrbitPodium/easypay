@@ -1,6 +1,6 @@
 <?php
 
-namespace kanazaca\easypay;
+namespace orbitpodium\easypay;
 
 use Illuminate\Support\ServiceProvider;
 
