@@ -34,8 +34,6 @@ Lastly, run migrate to create `easypay_notifications` table
 php artisan migrate
 ```
 
-Copy NotificacaoMB.php file to your APP Model folder
-
 ## Usage
 
 ### Create a reference
