@@ -20,7 +20,7 @@ Add the service provider to `config/app.php`, within the `providers` array.
 ```php
 'providers' => array(
 	// ...
-	OrbitPodium\easypay\EasypayServiceProvider::class,
+	orbitpodium\easypay\EasypayServiceProvider::class,
 )
 ```
 Publish the config file.
@@ -33,6 +33,8 @@ Lastly, run migrate to create `easypay_notifications` table
 ```
 php artisan migrate
 ```
+
+Copy NotificacaoMB.php file to your APP Model folder
 
 ## Usage
 
