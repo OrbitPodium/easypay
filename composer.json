@@ -1,5 +1,5 @@
 {
-    "name": "orbitpodium/easypay",
+    "name": "OrbitPodium/easypay",
     "description": "Laravel package for easypay.pt",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "orbitpodium\\easypay\\": "src/"
+            "OrbitPodium\\easypay\\": "src/"
         }
     },
     "require": {}
