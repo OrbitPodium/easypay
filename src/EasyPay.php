@@ -1,4 +1,4 @@
-<?php namespace kanazaca\easypay;
+<?php namespace orbitpodium\easypay;
  
 use DB;
  
